@@ -2782,11 +2782,6 @@ LED</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-43.18" y="0" size="1.778" layer="97">The Digispark design (schematic, layout, concept) is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License: http://creativecommons.org/licenses/by-sa/3.0/</text>
-<text x="-43.18" y="-5.08" size="1.778" layer="97">The Digispark and Digistump names and logos (or derivatives thereof) may not be used as part of the name of a product, company, or domain name without express written permission.</text>
-<text x="-43.18" y="-10.16" size="1.778" layer="97">Digispark name. logo and Digistump name, logo Copyright 2013 Digistump LLC All Rights Reserved</text>
-<text x="-43.18" y="-15.24" size="1.778" layer="97">For full details and license information please see http://digistump.com/wiki/digispark/policy</text>
-<text x="-43.18" y="-20.32" size="1.778" layer="97">Created by Erik Kettenbugr, Digistump LLC - digistump.com 2012</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="-5.08" y="43.18" smashed="yes" rot="R180"/>
