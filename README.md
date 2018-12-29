@@ -13,7 +13,7 @@ at 31.2 x 19.0 mm, and plugs directly into a USB port.
 
 ### Bill of Materials
 
-*   C1: Tantalum 4.7 μF (0805)
+*   C1,C3: Tantalum 4.7 μF (0805)
 *   C2: Ceramic 0.1 μF (0603)
 *   D1,D2: 3.6V Zener (SOD-323)
 *   D3: Green LED (0603)
