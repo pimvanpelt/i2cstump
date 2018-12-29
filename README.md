@@ -13,17 +13,17 @@ at 31.2 x 19.0 mm, and plugs directly into a USB port.
 
 ### Bill of Materials
 
-*   C1: Tantalum 4.7uf (0805)
-*   C2: Ceramic 0.1uF (0603)
+*   C1: Tantalum 4.7 μF (0805)
+*   C2: Ceramic 0.1 μF (0603)
 *   D1,D2: 3.6V Zener (SOD-323)
 *   D3: Green LED (0603)
 *   IC1: ATTINY85 (SO08)
 *   IC2: AM1117 3.3V (SOT223)
-*   J1,J2: QWIIC Connevtor (1X04 1MM RA)
+*   J1,J2: QWIIC Connector (1X04 1MM RA)
 *   Q1,Q2: BSS138 (SOT23-3)
-*   R1,R2: 66R (0603)
-*   R3,R4: 1k5 (0603)
-*   R5-R8: 10k (0603)
+*   R1,R2: 66 Ω (0603)
+*   R3,R4: 1.5 kΩ (0603)
+*   R5-R8: 10 kΩ (0603)
 
 ## Firmware
 
