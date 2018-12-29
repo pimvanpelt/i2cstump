@@ -2750,14 +2750,14 @@ LED</description>
 <part name="U$5" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0805" value="4.7uf"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1" value="I2C-5V"/>
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC2" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
 <part name="U$6" library="SparkFun" deviceset="5V" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1" value="I2C-3V3"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-BSS138" package3d_urn="urn:adsk.eagle:package:38446/1" value="220mA/50V/3.5Ω"/>
@@ -2777,6 +2777,7 @@ LED</description>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k5"/>
 <part name="U$9" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
+<part name="C3" library="SparkFun" deviceset="CAP" device="0805" value="4.7uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -2918,11 +2919,15 @@ LED</description>
 <instance part="GND8" gate="1" x="139.7" y="15.24" smashed="yes">
 <attribute name="VALUE" x="137.16" y="12.7" size="1.778" layer="96"/>
 </instance>
+<instance part="C3" gate="G$1" x="144.78" y="73.66" smashed="yes">
+<attribute name="NAME" x="146.304" y="76.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.304" y="71.501" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$10" class="0">
+<net name="USB_M" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="25.4" y1="17.78" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
@@ -2940,7 +2945,7 @@ LED</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="USB_P" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="D+"/>
 <wire x1="17.78" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
@@ -2990,6 +2995,9 @@ LED</description>
 <pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<junction x="129.54" y="71.12"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="GND"/>
@@ -3124,7 +3132,11 @@ LED</description>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="IC2" gate="G$1" pin="VOUT"/>
-<wire x1="147.32" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="78.74" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
+<junction x="144.78" y="83.82"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="VCC"/>
@@ -3190,6 +3202,15 @@ LED</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,27.94,81.28,J1,VCC,5V,,,"/>
+<approved hash="104,1,27.94,121.92,J2,VCC,+3V3,,,"/>
+<approved hash="208,1,147.32,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,142.24,83.82,+3V3,out,,,,"/>
+<approved hash="208,1,40.64,121.92,+3V3,sup,,,,"/>
+<approved hash="208,1,86.36,121.92,+3V3,sup,,,,"/>
+<approved hash="208,1,86.36,144.78,+3V3,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
