@@ -25,13 +25,17 @@ See my [Oshpark project](https://oshpark.com/shared_projects/iBBtdp7S).
 *   J1,J2: QWIIC Connector (1X04 1MM RA)
 *   Q1,Q2: BSS138 (SOT23-3)
 *   R1,R2: 66 Ω (0603)
-*   R3,R4: 1.5 kΩ (0603)
+*   R3,R4: 2.2 kΩ (0603)
 *   R5-R8: 10 kΩ (0603)
 
 ## Firmware
 
-Firmware is [I2C-Tiny-USB](https://github.com/harbaum/I2C-Tiny-USB) which
-is detected under Linux using the [i2c-tiny-usb](https://github.com/torvalds/linux/blob/master/drivers/i2c/busses/i2c-tiny-usb.c)
+The ATTiny85 is first flashed with [Micronucleus](https://github.com/micronucleus/micronucleus),
+a bootloader which equips the microcontroller with a minimal USB interface. You can use the
+`ICSP` touchpoint header at the bottom of the board to flash.
+
+Firmware which runs under the micronucleus bootloader is [I2C-Tiny-USB](https://github.com/harbaum/I2C-Tiny-USB)
+which is detected under Linux using the [i2c-tiny-usb](https://github.com/torvalds/linux/blob/master/drivers/i2c/busses/i2c-tiny-usb.c)
 driver.
 
 ## Acknowledgements
