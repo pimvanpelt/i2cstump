@@ -31,6 +31,8 @@ See my Oshpark projects: [v2](https://oshpark.com/shared_projects/iBBtdp7S),
 *   R3,R4: 2.2 kΩ (0603)
 *   R5-R8: 10 kΩ (0603)
 
+To build this board by hand, take a look at the [instructions](BUILDING.md).
+
 ## Firmware
 
 The ATTiny85 is first flashed with [Micronucleus](https://github.com/micronucleus/micronucleus),
