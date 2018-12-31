@@ -3151,12 +3151,12 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="U$8" library="SparkFun" deviceset="5V" device=""/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k5"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k2"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="66R"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="66R"/>
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k5"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="390R"/>
 <part name="U$9" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0805" value="4.7uf"/>
@@ -3213,8 +3213,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <attribute name="VALUE" x="15.24" y="75.946" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="15.24" y="89.154" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$4" gate="G$1" x="40.64" y="81.28" smashed="yes" rot="R270">
-<attribute name="VALUE" x="44.196" y="82.296" size="1.778" layer="96" rot="R270"/>
+<instance part="U$4" gate="G$1" x="40.64" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="41.656" y="77.724" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND4" gate="1" x="33.02" y="76.2" smashed="yes">
 <attribute name="VALUE" x="30.48" y="73.66" size="1.778" layer="96"/>
@@ -3235,8 +3235,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="GND6" gate="1" x="33.02" y="116.84" smashed="yes">
 <attribute name="VALUE" x="30.48" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="43.18" y="121.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="43.18" y="121.92" size="1.778" layer="96"/>
+<instance part="+3V2" gate="G$1" x="40.64" y="119.38" smashed="yes" rot="R180">
+<attribute name="VALUE" x="38.1" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="NMOS" x="88.9" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="88.9" y="106.68" size="1.778" layer="95" font="vector" rot="R270"/>

@@ -28,7 +28,8 @@ See my Oshpark projects: [v2](https://oshpark.com/shared_projects/iBBtdp7S),
 *   J1,J2: QWIIC Connector (1X04 1MM RA)
 *   Q1,Q2: BSS138 (SOT23-3)
 *   R1,R2: 66 Ω (0603)
-*   R3,R4: 2.2 kΩ (0603)
+*   R3: 390 Ω (0603)
+*   R4: 2.2 kΩ (0603)
 *   R5-R8: 10 kΩ (0603)
 
 To build this board by hand, take a look at the [instructions](BUILDING.md).
