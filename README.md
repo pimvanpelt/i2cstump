@@ -1,7 +1,7 @@
 # Digistump I2C dongle
 
-![Top of I2CStump](gfx/i2cstump-v2-top.png)
-![Bottom of I2CStump](gfx/i2cstump-v2-bottom.png)
+![Top of I2CStump](gfx/i2cstump-v3-top.png)
+![Bottom of I2CStump](gfx/i2cstump-v3-bottom.png)
 
 ## Hardware 
 
@@ -21,7 +21,9 @@ See my [Oshpark project](https://oshpark.com/shared_projects/iBBtdp7S).
 *   D1,D2: 3.6V Zener (SOD-323)
 *   D3: Green LED (0603)
 *   IC1: ATTINY85 (SO08)
-*   IC2: AM1117 3.3V (SOT223)
+*   IC2:
+    *   v2: AM1117 3.3V (SOT223)
+    *   v3: MCP1703 3.3V (SOT23)
 *   J1,J2: QWIIC Connector (1X04 1MM RA)
 *   Q1,Q2: BSS138 (SOT23-3)
 *   R1,R2: 66 Ω (0603)
