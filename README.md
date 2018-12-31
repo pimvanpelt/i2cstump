@@ -42,6 +42,6 @@ driver.
 
 Thanks go to:
 
-*   Digistump LLC for sharing the device under Creative Commons.
+*   Digistump LLC for sharing the original for this device under Creative Commons.
+*   Tim Böscke, Jenna Fox, Shay Green et al for the Micronucleus bootloader.
 *   Till Harbaum for an excellent ATTINY85 firmware for an I2C bridge.
-
