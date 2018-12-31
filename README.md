@@ -1,6 +1,7 @@
 # Digistump I2C dongle
 
-![Image of I2CStump](gfx/i2cstump-v0.png)
+![Top of I2CStump](gfx/i2cstump-v2-top.png)
+![Bottom of I2CStump](gfx/i2cstump-v2-bottom.png)
 
 ## Hardware 
 
