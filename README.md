@@ -12,6 +12,8 @@ using [BSS138](https://www.onsemi.com/pub/Collateral/BSS138-D.PDF) FETs to
 create a 3.3V I2C port. It's slightly bigger than the original, coming in 
 at 31.2 x 19.0 mm, and plugs directly into a USB port.
 
+See my [Oshpark project](https://oshpark.com/shared_projects/iBBtdp7S).
+
 ### Bill of Materials
 
 *   C1,C3: Tantalum 4.7 μF (0805)
