@@ -18,8 +18,13 @@ Solder `IC1` (the ATTiny85) onto the board.
 Using `avrdude`, flash micronucleus bootloader onto the MCU. There are many
 ways to drive `avrdude`, for example using an `usbasp` or `usbtiny` device,
 or using an Arduino ISP with `arduino`, or using a Raspberry Pi with
-`linuxgpio`. Then, several eFuses have to be set. See [this instructable](https://www.instructables.com/id/Refresh-Your-DigiSpark-clone-With-a-Smaller-Bootlo/)
+`linuxgpio`.
+
+See [this instructable](https://www.instructables.com/id/Refresh-Your-DigiSpark-clone-With-a-Smaller-Bootlo/)
 for some background information.
+
+Also, several eFuses have to be set. For information on fuses, take a look
+[here](http://www.engbedded.com/fusecalc/).
 
 Assuming some knowledge with `avrdude`, here's an example
 commandline:
