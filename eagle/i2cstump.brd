@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -804,10 +804,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PROD_ID" value=" " x="23.622" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.384" y="17.145" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k2" x="10.033" y="5.461" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.033" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="10.033" y="5.207" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="9.271" y="5.461" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k2" x="10.033" y="5.588" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.033" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="10.033" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="9.271" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="66R" x="11.176" y="16.891" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.779" y="18.161" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -854,7 +854,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.0145" y1="8.527" x2="9.906" y2="8.527" width="0.254" layer="1"/>
 <wire x1="9.906" y1="8.527" x2="5.327" y2="8.527" width="0.254" layer="1"/>
 <wire x1="5.327" y1="8.527" x2="5.3" y2="8.5" width="0.254" layer="1"/>
-<wire x1="10.033" y1="6.311" x2="10.033" y2="8.4" width="0.254" layer="1"/>
+<wire x1="10.033" y1="6.438" x2="10.033" y2="8.4" width="0.254" layer="1"/>
 <wire x1="10.033" y1="8.4" x2="9.906" y2="8.527" width="0.254" layer="1"/>
 <wire x1="10.326" y1="16.891" x2="10.326" y2="17.565" width="0.254" layer="1"/>
 <wire x1="10.326" y1="17.565" x2="10.795" y2="18.034" width="0.254" layer="1"/>
@@ -907,7 +907,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.319" y1="12.954" x2="12.319" y2="11.684" width="0.508" layer="1"/>
 <wire x1="12.319" y1="11.684" x2="12.319" y2="11.176" width="0.508" layer="1"/>
 <wire x1="12.319" y1="11.176" x2="12.3145" y2="11.1715" width="0.508" layer="1"/>
-<wire x1="12.435" y1="11.568" x2="12.319" y2="11.684" width="0.508" layer="1"/>
 <wire x1="26.035" y1="2.691" x2="24.13" y2="2.691" width="0.508" layer="1"/>
 <wire x1="24.13" y1="2.691" x2="20.828" y2="2.691" width="0.508" layer="1"/>
 <wire x1="20.828" y1="2.691" x2="19.153" y2="2.691" width="0.508" layer="1"/>
@@ -946,7 +945,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R4" pad="2"/>
 <contactref element="X1" pad="5V"/>
 <contactref element="C2" pad="1"/>
-<wire x1="10.033" y1="4.611" x2="10.033" y2="4.699" width="0.508" layer="1"/>
 <contactref element="R3" pad="2"/>
 <polygon width="0.1524" layer="1">
 <vertex x="9.017" y="18.923"/>
@@ -958,8 +956,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="J3" pad="2"/>
 <contactref element="IC2" pad="3"/>
-<wire x1="10.033" y1="4.611" x2="8.851" y2="4.611" width="0.508" layer="1"/>
-<wire x1="8.851" y1="4.611" x2="7.874" y2="5.588" width="0.508" layer="1"/>
+<wire x1="10.033" y1="4.738" x2="8.724" y2="4.738" width="0.508" layer="1"/>
+<wire x1="8.724" y1="4.738" x2="7.874" y2="5.588" width="0.508" layer="1"/>
 <wire x1="7.874" y1="5.588" x2="5.212" y2="5.588" width="0.508" layer="1"/>
 <wire x1="5.212" y1="5.588" x2="4.8" y2="6" width="0.508" layer="1"/>
 </signal>
