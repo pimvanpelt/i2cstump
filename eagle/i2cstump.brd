@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -151,7 +151,7 @@
 <wire x1="9" y1="19" x2="9" y2="15.53" width="0" layer="20"/>
 <wire x1="9" y1="15.53" x2="0" y2="15.53" width="0" layer="20"/>
 <wire x1="0" y1="15.53" x2="0" y2="3.5" width="0" layer="20"/>
-<text x="5.6896" y="4.7192" size="1.27" layer="26" font="vector" ratio="18" rot="MR90">Digispark</text>
+<text x="4.9911" y="9.4817" size="1.524" layer="26" font="vector" ratio="25" rot="MR90" align="center">I2CStump</text>
 <text x="14.224" y="5.715" size="0.635" layer="21" font="vector" ratio="20" distance="80" align="bottom-center">C1</text>
 <text x="13.462" y="10.541" size="0.635" layer="21" font="vector" ratio="20" distance="80" align="center">D2</text>
 <text x="13.462" y="8.509" size="0.635" layer="21" font="vector" ratio="20" distance="80" align="center">D1</text>
