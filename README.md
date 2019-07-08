@@ -13,8 +13,10 @@ create a 3.3V I2C port. It's slightly bigger than the original, coming in
 at 31.2 x 19.0 mm, and plugs directly into a USB port.
 
 See my Oshpark projects: [v2](https://oshpark.com/shared_projects/iBBtdp7S),
-[v3](https://oshpark.com/shared_projects/8I7qjXw7). You can see a few
-pictures of the v3 board [here](https://photos.app.goo.gl/4XRo74y9Bt4kZoqR7).
+[v3](https://oshpark.com/shared_projects/8I7qjXw7), 
+[Current - v4](https://oshpark.com/shared_projects/ChwKt4Mn).
+
+You can see a few pictures of the v3 board [here](https://photos.app.goo.gl/4XRo74y9Bt4kZoqR7).
 
 ### Bill of Materials
 
