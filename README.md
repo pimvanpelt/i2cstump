@@ -21,17 +21,17 @@ pictures of the v3 board [here](https://photos.app.goo.gl/4XRo74y9Bt4kZoqR7).
 *   C1,C3: Tantalum 4.7 μF (0805)
 *   C2: Ceramic 0.1 μF (0603)
 *   D1,D2: 3.6V Zener (SOD-323)
-*   D3: Green LED (0603)
+*   D3: Blue LED (0603)
 *   IC1: ATTINY85 (SO08)
 *   IC2:
     *   v2: AM1117 3.3V (SOT223)
-    *   v3: MCP1703 3.3V (SOT23)
+    *   v3+: MCP1703 3.3V (SOT23)
 *   J1,J2: QWIIC Connector (1X04 1MM RA)
 *   Q1,Q2: BSS138 (SOT23-3)
 *   R1,R2: 66 Ω (0603)
 *   R3: 390 Ω (0603)
 *   R4: 2.2 kΩ (0603)
-*   R5-R8: 10 kΩ (0603)
+*   RN1: 10 kΩ (0805)
 
 To build this board by hand, take a look at the [instructions](BUILDING.md).
 
