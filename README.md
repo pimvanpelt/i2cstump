@@ -1,7 +1,7 @@
 # Digistump I2C dongle
 
-![Top of I2CStump](gfx/i2cstump-v3-top.png)
-![Bottom of I2CStump](gfx/i2cstump-v3-bottom.png)
+![Top of I2CStump](gfx/i2cstump-v4-top.png)
+![Bottom of I2CStump](gfx/i2cstump-v4-bottom.png)
 
 ## Hardware 
 
@@ -31,7 +31,8 @@ pictures of the v3 board [here](https://photos.app.goo.gl/4XRo74y9Bt4kZoqR7).
 *   R1,R2: 66 Ω (0603)
 *   R3: 390 Ω (0603)
 *   R4: 2.2 kΩ (0603)
-*   RN1: 10 kΩ (0805)
+*   v1-v3: R5-R8: 10 kΩ (0603)
+*   v4: RN1: 10 kΩ (0805)
 
 To build this board by hand, take a look at the [instructions](BUILDING.md).
 
