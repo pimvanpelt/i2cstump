@@ -3,11 +3,11 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -171,9 +171,9 @@ Version 5.0</text>
 <hole x="13.081" y="9.525" drill="2.9972"/>
 <text x="19.177" y="7.493" size="0.6096" layer="21" font="vector" ratio="25" align="center-left">RN1</text>
 <text x="1.016" y="3.302" size="0.635" layer="21" font="vector" ratio="20" distance="80" rot="R90" align="bottom-center">PWR</text>
-<wire x1="0" y1="0" x2="25.908" y2="-0.127" width="0.0254" layer="20"/>
-<wire x1="25.908" y1="-0.127" x2="25.908" y2="18.669" width="0.0254" layer="20"/>
-<wire x1="25.908" y1="18.669" x2="0" y2="18.796" width="0.0254" layer="20"/>
+<wire x1="0" y1="0" x2="25.908" y2="0" width="0.0254" layer="20"/>
+<wire x1="25.908" y1="0" x2="25.908" y2="18.796" width="0.0254" layer="20"/>
+<wire x1="25.908" y1="18.796" x2="0" y2="18.796" width="0.0254" layer="20"/>
 <wire x1="0" y1="18.796" x2="0" y2="0" width="0.0254" layer="20"/>
 </plain>
 <libraries>
