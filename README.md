@@ -17,7 +17,8 @@ USB device, with two added [Qwiic](https://www.sparkfun.com/qwiic) connectors.
 The first is used as a 5V I2C port, and the second has a level shifter to 3.3V
 using [BSS138](https://www.onsemi.com/pub/Collateral/BSS138-D.PDF) FETs to
 create a 3.3V I2C port. It's slightly bigger than the original, coming in 
-at 31.2 x 19.0 mm, and plugs directly into a USB port.
+at 34.0 x 18.7 mm (for the stump, which plugs directly into a USB port), or
+25.9 x 18.8 mm (for the USB-C version)..
 
 See my Oshpark projects: [v2](https://oshpark.com/shared_projects/iBBtdp7S),
 [v3](https://oshpark.com/shared_projects/8I7qjXw7), 
