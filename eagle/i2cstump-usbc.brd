@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1119,7 +1119,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value=" " x="10.16" y="6.604" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="10.16" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k2" x="7.112" y="3.302" smashed="yes">
+<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="390R" x="7.112" y="3.302" smashed="yes">
 <attribute name="NAME" x="7.493" y="4.064" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="7.112" y="3.302" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.112" y="2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
